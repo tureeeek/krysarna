@@ -1,0 +1,68 @@
+body{
+    background-image: linear-gradient(rgb(255, 227, 227) 10%, rgb(47, 73, 145));
+    overflow-x: hidden;
+    height: 100vh;
+}
+.title{
+    font-family: font;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+img {
+    opacity: 0.6;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.grid{
+    position: relative;
+    top: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 500px;
+    place-items: center;
+}
+
+    .grid a{
+        background-color: #ffffff;
+        padding: 10px 20px;
+        border-style: solid;
+        border-radius: 40px;
+        border-width: 1px;
+        border-color: rgb(0, 0, 0);
+        width: 70%;
+        min-width: 70%;
+        text-align: center;
+        box-shadow: 4px 10px 8px rgba(0, 0, 0, 0.434),-4px 4px 8px rgba(0, 0, 0, 0.334);
+        transition: 0.2s;
+    }
+
+@font-face {
+    font-family: font;
+    src: url(Lexend-Regular.ttf);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
